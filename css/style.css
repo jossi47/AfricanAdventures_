@@ -1,0 +1,88 @@
+*{
+	
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ margin:2px;
+ border-width:5px;
+ padding:2px;
+ border-color: coral;
+
+}
+
+
+body{
+	  font: 15px/1.5 Arial, Helvetica,sans-serif;
+
+  background-color:#f4f4f4;
+  background-image: url('C:/Users/hp/Desktop/tobenwebsite/toben/img/7.jpg');
+  background-size: cover;
+ opacity:0.8;
+}
+img:hover {
+  opacity:0.5;
+}
+
+.Container{
+margin-top: 80px;
+}
+h1{
+	text-align: center;
+}
+
+/*nav bar*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration:underline;
+  font-size: 25px;
+  color: #e8491d;
+  display: block;
+  transition: 0.3s;
+}
+
+p{
+  font-family:verdana;
+  font-size: 15px;
+   color: black;
+  background-color:white;
+  border-line:black;
+  padding: 5px; 
+
+
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+footer{
+  padding:20px;
+  margin-bottom:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
